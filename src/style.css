@@ -1,0 +1,46 @@
+.card-body {
+  font-family: "Poppins", sans-serif;
+}
+.cities {
+  font-weight: bold;
+}
+.sun-icon {
+  font-size: 100px;
+  color: orange;
+}
+.sun-small {
+  font-size: 50px;
+  color: orange;
+}
+.temperature {
+  font-size: 75px;
+  position: relative;
+  left: -20px;
+}
+
+.temp-sign {
+  font-size: 25px;
+  position: relative;
+  top: -35px;
+  left: -20px;
+}
+
+#description {
+  text-align: right;
+}
+
+.next {
+  text-align: left;
+  font-weight: 900;
+}
+.cloud-small {
+  font-size: 50px;
+  color: grey;
+}
+.rain-small {
+  font-size: 50px;
+}
+.snow-small {
+  font-size: 50px;
+  color: #00a3d2;
+}
