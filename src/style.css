@@ -19,10 +19,14 @@
 }
 
 .temp-sign {
-  font-size: 25px;
+  font-size: 20px;
   position: relative;
   top: -35px;
   left: -20px;
+}
+
+.fahrenheit {
+  text-decoration: none;
 }
 
 #description {
