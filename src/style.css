@@ -4,7 +4,7 @@
 .cities {
   font-weight: bold;
 }
-.sun-icon {
+.current-icon {
   font-size: 100px;
   color: orange;
 }
@@ -13,20 +13,18 @@
   color: orange;
 }
 .temperature {
-  font-size: 75px;
+  font-size: 60px;
   position: relative;
   left: -20px;
 }
 
-.temp-sign {
+.temp-sign,
+.temp-active {
   font-size: 20px;
   position: relative;
+  text-decoration: none;
   top: -35px;
   left: -20px;
-}
-
-.fahrenheit {
-  text-decoration: none;
 }
 
 #description {
@@ -52,4 +50,11 @@
   font-family: "Poppins", sans-serif;
   font-size: 12px;
   margin: 350px;
+}
+.temp-active {
+  color: black;
+}
+.temp-active:hover {
+  text-decoration: none;
+  cursor: default;
 }
