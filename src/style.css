@@ -13,7 +13,7 @@
   color: orange;
 }
 .temperature {
-  font-size: 60px;
+  font-size: 75px;
   position: relative;
   left: -20px;
 }
@@ -53,8 +53,11 @@
 }
 .temp-active {
   color: black;
+  cursor: default;
 }
 .temp-active:hover {
   text-decoration: none;
-  cursor: default;
+}
+.temp-sign:hover {
+  text-decoration: none;
 }
