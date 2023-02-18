@@ -51,12 +51,9 @@
   font-size: 12px;
   margin: 350px;
 }
-.temp-active {
+.temp-sign {
   color: black;
   cursor: default;
-}
-.temp-active:hover {
-  text-decoration: none;
 }
 .temp-sign:hover {
   text-decoration: none;
