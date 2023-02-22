@@ -14,6 +14,7 @@
 }
 .temperature {
   font-size: 75px;
+  font-weight: normal;
   position: relative;
   left: -20px;
 }
@@ -29,9 +30,10 @@
 
 #description {
   text-align: right;
+  font-weight: normal;
 }
 
-.next {
+.weather-forecast {
   text-align: left;
   font-weight: 900;
 }
@@ -53,6 +55,7 @@
 }
 .temp-sign {
   color: black;
+  font-weight: normal;
   cursor: default;
 }
 .temp-sign:hover {
