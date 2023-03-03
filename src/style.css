@@ -33,7 +33,7 @@
   font-weight: normal;
 }
 
-.weather-forecast {
+.next-five-days {
   text-align: left;
   font-weight: 900;
 }
@@ -60,4 +60,13 @@
 }
 .temp-sign:hover {
   text-decoration: none;
+}
+.weather-forecast-day {
+  font-size: 15px;
+}
+.weather-forecast-temperatures {
+  font-size: 15px;
+}
+.weather-forecast-temp-min {
+  opacity: 0.5;
 }
