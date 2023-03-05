@@ -4,13 +4,25 @@
 .cities {
   font-weight: bold;
 }
-.current-icon {
-  font-size: 100px;
-  color: orange;
+#icon {
+  height: 150px;
 }
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  text-transform: capitalize;
+}
+
 .sun-small {
   font-size: 50px;
   color: orange;
+}
+.weather-temp {
+  list-style: none;
 }
 .temperature {
   font-size: 75px;
@@ -29,7 +41,7 @@
 }
 
 #description {
-  text-align: right;
+  text-align: left;
   font-weight: normal;
 }
 
